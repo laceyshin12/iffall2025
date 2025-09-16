@@ -1,0 +1,88 @@
+html {
+ color:#3300ff;
+/* font-family: Arial, Helvetica, sans-serif; */
+   font-family: "Merriweather", serif;
+ font-size: 13pt;
+ line-height: 0.8;
+} 
+
+h1, h2, h3, body {
+  text-align: center;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+  
+h2 {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.font-weight-normal {
+    font-weight: normal;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.font-weight-italic {
+    font-weight: italic;
+}
+
+.font-style-normal {
+    font-style: normal;
+}
+
+.font-style-italic {
+    font-style: italic;
+}
+
+.font-weight-normal {
+    font-weight: normal;
+}
+
+.letter-spacing-normal {
+    letter-spacing: normal;
+}
+
+.letter-spacing-reduced {
+    letter-spacing: -0.02em;
+}
+
+.letter-spacing-reduced2 {
+    letter-spacing: -0.15em;
+}
+
+.text-decoration-line-through {
+    text-decoration:line-through;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
+
+.text-decoration-overline {
+    text-decoration: overline;
+}
+
+.text-decoration-underline {
+    text-decoration: underline;
+}
+
+.text-transform-normal {
+    text-transform: normal;
+}
+
+.text-transform-uppercase {
+    text-transform: uppercase;
+}
+
+.text-transform-lowercase {
+    text-transform: lowercase;
+}
+
+.text-transform-capitalize {
+    text-transform: capitalize;
+}
