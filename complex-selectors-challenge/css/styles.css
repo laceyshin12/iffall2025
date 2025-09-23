@@ -1,0 +1,55 @@
+html {
+    header{
+    margin-bottom: 3rem;
+    }
+}
+
+p{
+    line-height: 1.6;
+}
+
+.see-all {
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+
+.title {
+    font-size: 2.5rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.Cast img src {
+    width: 100%;
+}
+
+
+.Cast div last-of-type {
+    font-style: italic;
+}
+
+.Cast ul li {
+    width: 25%;
+}
+
+.Cast li div {
+    font-size: 0.8rem;
+}
+
+.Selected {
+    font-weight: bold;
+}
+
+.Cast ul li a div first-of-type {
+    font-weight: bold;
+}
