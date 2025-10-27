@@ -1,0 +1,663 @@
+            body {
+				color: #333;
+				font-family: 'Open Sans', sans-serif;
+				margin: 0;
+				padding: 0;
+			}
+
+			main {
+				margin: 40px;
+			}
+
+			h1 {
+			 	font-size: 30px;
+			 	margin-bottom: 40px;
+			}
+
+			.button_container {
+				border: 1px solid #ddd;
+				margin: 0 10px 10px 0;
+				padding: 20px;
+				width: 300px;
+				height: 300px;
+				float: left;
+				overflow: hidden;
+				box-sizing: border-box;
+				text-align: center;
+			}
+
+
+
+			a#btn_spotify {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				background-color: #2ebd59;
+				border: 2px solid #2ebd59;
+				color: #fff;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+				transition: all .5s;
+			}
+
+			a#btn_spotify:hover {
+				background-color: #fff;
+				border: 2px solid #000;
+				color: #000;
+			}
+
+			a#btn_amazon {
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				background-color: #232f3e;
+				color: #fff;
+				text-align: center;
+				font-size: 60px;
+				transition: all .2s;
+			}
+
+			a#btn_amazon:hover {
+				background-color: #fc9a18;
+			}
+
+			a#btn_twitter {
+				display: inline-block;
+				height: 40px;
+				box-sizing: border-box;
+				border-radius: 4px;
+				margin: auto;
+				margin-top: 105px;
+				padding: 10px 30px 0 30px;
+				background-color: #56cdf1;
+				color: #fff;
+				font-size: 18px;
+				font-family: 'Arial', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_twitter:hover {
+
+				/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+				background: rgb(46,191,236); /* Old browsers */
+				background: -moz-linear-gradient(-45deg,  rgba(46,191,236,1) 0%, rgba(40,165,203,1) 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(-45deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(135deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+			}
+
+			a#btn_indiegogo {
+				display: inline-block;
+				position: relative;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: #eb1478;
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: -2px;
+				transition: all .2s;
+			}
+
+			a#btn_indiegogo:before {
+				content: "";
+				display: block;
+				width: 0;
+				height: 0;
+				z-index: 1;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				background-color: #eb1478;
+				transition: all .5s;
+			}
+
+			a#btn_indiegogo:hover {
+				color: #fff;
+			}
+
+			a#btn_indiegogo:hover:before {
+				width: 100%;
+				height: 100%;
+				left: 0;
+				top: 0;
+			}
+
+			a#btn_indiegogo span {
+				position: relative;
+				z-index: 10;
+	
+			}
+
+            a#btn_mollyjogger {
+				display: inline-block;
+				height: 60px;
+				box-sizing: border-box;
+				border-radius: 40px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 13px 42px 0 45px;
+				background-color: rgb(39, 93, 48);
+				border: 2px solid yellow;
+				color: white;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+				transition: all .5s;
+			}
+
+			a#btn_mollyjogger:hover {
+				background-color: rgb(12, 58, 27);
+				border: 2px solid #000;
+				color: #000;
+			}
+
+            a#btn_ideo {
+				display: block;
+				width: 200px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 70px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				background-color: #232f3e;
+				color: #fff;
+				text-align: center;
+				font-size: 60px;
+				transition: all .2s;
+			}
+
+			a#btn_ideo:hover {
+				background-color: #cacaca;
+            }
+
+            a#btn_IBM {
+				display: inline-block;
+				position: relative;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: rgb(21, 21, 141);
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 60px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: 10px;
+				transition: all .2s;
+			}
+
+			a#btn_IBM:before {
+				content: "";
+				display: block;
+				width: 0;
+				height: 0;
+				z-index: 1;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				background-color: grey;
+				transition: all .5s;
+			}
+
+			a#btn_IBM:hover {
+				color: #97c6ff;
+			}
+
+			a#btn_IBM:hover:before {
+				width: 10%;
+				height: 15%;
+				left: 0;
+				top: 0;
+			}
+
+			a#btn_IBM span {
+				position: relative;
+				z-index: 10;
+	
+			}
+
+			a#btn_explodingkitties {
+				display: inline-block;
+				position: relative;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: #ffb2d5;
+  				font-family: "Luckiest Guy", cursive;
+  				font-weight: 400;
+				font-style: normal;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: lowercase;
+				text-decoration: none;
+				letter-spacing: 2px;
+				transition: all .1s;
+			}
+
+			a#btn_explodingkitties:before {
+				content: "";
+				display: block;
+				width: 0;
+				height: 0;
+				z-index: 1;
+				position: absolute;
+				top: 10%;
+				left: 25%;
+				background-color: #7c1f4a;
+				transition: all .5s;
+			}
+
+			a#btn_explodingkitties:hover {
+				color: #ffff76;
+			}
+
+			a#btn_explodingkitties:hover:before {
+				width: 100%;
+				height: 100%;
+				left: 0;
+				top: 0;
+			}
+
+			a#btn_explodingkitties span {
+				position: relative;
+				z-index: 10;
+	
+			}
+			
+			a#btn_pastaria {
+				display: inline-block;
+				position: relative;
+				margin:auto;
+				margin-top: 100px;
+				padding: 4px 8px;
+				background-color: #be5050;
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 35px;
+				font-weight: bold;
+				text-transform: lowercase;
+				text-decoration: none;
+				letter-spacing: 3px;
+				transition: all .2s;
+			}
+
+			a#btn_pastaria:before {
+				content: "";
+				display: block;
+				width: 2;
+				height: 2;
+				z-index: 3;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transition: all .5s;
+			}
+
+			a#btn_pastaria:hover {
+				color: #c3ff98;
+			}
+
+			a#btn_pastaria:hover:before {
+				width: 10%;
+				height: 15%;
+				left: 0;
+				top: 0;
+			}
+
+			a#btn_pastaria span {
+				position: relative;
+				z-index: 10;
+				display: inline-block;
+				transition: transform 0.3s ease;
+	
+			}
+
+			a#btn_pastaria:hover span {
+				transform: translateY(60px);
+			}
+
+			a#btn_H {
+				display: inline-block;
+				position: relative;
+				margin:auto;
+				margin-top: 20px;
+				padding: 20px 20px;
+				background-color: #000000;
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 100px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: 3px;
+				transition: all .2s;
+			}
+
+			a#btn_H:before {
+				content: "";
+				display: block;
+				width: 2;
+				height: 2;
+				z-index: 3;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transition: all .5s;
+			}
+
+			a#btn_H:hover {
+				color: #ffffff;
+			}
+
+			a#btn_H:hover:before {
+				width: 10%;
+				height: 15%;
+				left: 0;
+				top: 0;
+			}
+
+			a#btn_H span {
+				position: relative;
+				z-index: 10;
+				display: inline-block;
+				transition: transform 0.3s ease;
+	
+			}
+
+			a#btn_H:hover span {
+				transform: translateY(100px);
+			}
+
+
+			a#btn_explodingkitties {
+				display: inline-block;
+				position: relative;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: #ffb2d5;
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: lowercase;
+				text-decoration: none;
+				letter-spacing: 0.05px;
+				transition: all .1s;
+			}
+
+			a#btn_explodingkitties:before {
+				content: "";
+				display: block;
+				width: 0;
+				height: 0;
+				z-index: 1;
+				position: absolute;
+				top: 10%;
+				left: 10%;
+				background-color: #7c1f4a;
+				transition: all .5s;
+			}
+
+			a#btn_explodingkitties:hover {
+				color: #ffff76;
+			}
+
+			a#btn_explodingkitties:hover:before {
+				width: 100%;
+				height: 100%;
+				left: 0;
+				top: 0;
+			}
+
+			a#btn_explodingkitties span {
+				position: relative;
+				z-index: 10;
+	
+			}
+
+			a#btn_facebook {
+				display: inline-block;
+				height: 70px;
+				box-sizing: border-box;
+				border-radius: 40px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 13px 42px 0 45px;
+				background-color: rgb(19, 26, 80);
+				border: 10px solid rgb(170, 231, 255);
+				color: white;
+				font-size: 20px;
+				font-family: "Raleway", sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+				transition: all .5s;
+			}
+
+			a#btn_facebook:hover {
+				background-color: rgb(255, 255, 255);
+				border: 2=10px solid #000;
+				color: #000;
+			}
+
+			a#btn_moo {
+				display: inline-block;
+				position: relative;
+				margin:auto;
+				margin-top: 200px;
+				padding: 4px 8px;
+				background-color: #e7fbea;
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 35px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: 3px;
+				transition: all .2s;
+			}
+
+			a#btn_moo:before {
+				content: "";
+				display: block;
+				width: 2;
+				height: 2;
+				z-index: 3;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transition: all .5s;
+			}
+
+			a#btn_moo:hover {
+				color: #638a46;
+			}
+
+			a#btn_moo:hover:before {
+				width: 10%;
+				height: 15%;
+				left: 0;
+				top: 0;
+			}
+
+			a#btn_moo span {
+				position: relative;
+				z-index: 10;
+				display: inline-block;
+				transition: transform 0.3s ease;
+	
+			}
+
+			a#btn_moo:hover span {
+				transform: translateX(60px);
+				transform: scale(4);
+			}
+
+			a#btn_foreflight {
+				display: inline-block;
+				position: relative;
+				margin:auto;
+				margin-top: 150px;
+				padding: 4px 8px;
+				background-color: #9f6fff;
+				font-family: "Archivo Narrow", sans-serif;
+				font-size: 15px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: 1px;
+				transition: all .2s;
+			}
+
+			a#btn_foreflight:before {
+				content: "";
+				display: block;
+				width: 2;
+				height: 2;
+				z-index: 3;
+				position: absolute;
+				top: 20%;
+				left: 20%;
+				transition: all .5s;
+			}
+
+			a#btn_foreflight:hover {
+				color: #cee1ff;
+			}
+
+			a#btn_foreflight:hover:before {
+				width: 10%;
+				height: 15%;
+				left: 0;
+				top: 0;
+			}
+
+			a#btn_foreflight span {
+				position: relative;
+				z-index: 10;
+				display: inline-block;
+				transition: transform 0.3s ease;
+	
+			}
+
+			a#btn_foreflight:hover span {
+				transform: translateX(60px);
+				transform: scale(3);
+			}
+
+			a#btn_OldNavy {
+				display: inline-block;
+				position: relative;
+				margin:auto;
+				margin-top: 70px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: #7cc0ff;
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 30px;
+				font-weight: italic;
+				text-transform: lowercase;
+				text-decoration: none;
+				letter-spacing: 2px;
+				transition: all .1s;
+			}
+
+			a#btn_OldNavy:before {
+				content: "";
+				display: block;
+				width: 0;
+				height: 0;
+				z-index: 1;
+				position: absolute;
+				top: 10%;
+				left: 25%;
+				background-color: #cce6ff;
+				transition: all .5s;
+			}
+
+			a#btn_OldNavy:hover {
+				color: #18538d;
+			}
+
+			a#btn_OldNavy:hover:before {
+				width: 100%;
+				height: 100%;
+				left: 0;
+				top: 0;
+			}
+
+			a#btn_OldNavy span {
+				position: relative;
+				z-index: 10;
+
+			}
+
+			a#btn_TheColorRun {
+				display: inline-block;
+				position: relative;
+				margin:auto;
+				margin-top: 100px;
+				padding: 4px 8px;
+				background-color: #fff700;
+				font-family: "Bitcount Grid Single", system-ui;
+				font-size: 15px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: 3px;
+				transition: all .2s;
+			}
+
+			a#btn_TheColorRun:before {
+				content: "";
+				display: block;
+				width: 2;
+				height: 2;
+				z-index: 3;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transition: all .5s;
+			}
+
+			a#btn_TheColorRun:hover {
+				color: #ff00b7;
+			}
+
+			a#btn_TheColorRun:hover:before {
+				width: 10%;
+				height: 15%;
+				left: 0;
+				top: 0;
+			}
+
+			a#btn_TheColorRun span {
+				position: relative;
+				z-index: 10;
+				display: inline-block;
+				transition: transform 0.3s ease;
+	
+			}
+
+			a#btn_TheColorRun:hover span {
+				transform: translateX(60px);
+			}
