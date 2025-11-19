@@ -8,7 +8,7 @@ p {
        
 
     h1 {
-  text-align: center;
+  text-align: left;
   color:rgb(4, 0, 36); font-size: 60px;
     }
     #main {
@@ -40,7 +40,9 @@ p {
         
         background-color: #f8e3ef;
         max-width: 80%;
-        text-align: center;
+        padding: 20px;
+        border-radius: 8px;
+        text-align: left;
     }
 
     .ROSTER {
@@ -50,13 +52,15 @@ p {
         justify-content: center;
         
         background-color: #f8e3ef;
-        text-align: center;
+        text-align: left;
+        padding: 20px;
+        border-radius: 8px;
     }
 
     #instructions img {
         width: 25%;
         height: auto;
-        margin-top: 8px;
+        margin-top: 0px;
         margin-bottom: 8px;
          
     }
