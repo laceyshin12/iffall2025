@@ -1,0 +1,178 @@
+p {
+            color: rgb(4, 0, 36); 
+            font-size: 20px;
+             line-height: 1.3; 
+        }
+    
+
+       
+
+    h1 {
+  text-align: center;
+  color:rgb(4, 0, 36); font-size: 60px;
+    }
+    #main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    width: 100%;
+
+    background: linear-gradient(
+        135deg,
+        #ff6161 0%,
+        #ffffff 40%,
+        #628cff 100%
+    );
+    }
+
+        body {
+    margin: 0;
+    
+}
+
+
+    .headerAndText {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        background-color: #f8e3ef;
+        max-width: 80%;
+        text-align: center;
+    }
+
+    .ROSTER {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        background-color: #f8e3ef;
+        text-align: center;
+    }
+
+    #instructions img {
+        width: 25%;
+        height: auto;
+        margin-top: 8px;
+        margin-bottom: 8px;
+         
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: lab(69.1% 45.4 26.11);
+        width: 100%;
+        text-align: center;
+    }
+
+
+    #ingredientCheckboxes {
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+.inconsolata-default {
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: #030029;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+
+    display: flex;              
+    justify-content: center;    
+    gap: 40px;                 
+}
+
+.navbar li {
+    float: none;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: hsl(205, 58%, 70%);
+}
+
+
+
+#ballimage1 {
+   
+
+    width: 25%;
+    max-width: 180px;            
+    position: absolute;
+    top: 0;                      
+    right: -5%;                    
+    transform: translate(20%, -40%); 
+        
+    
+    
+}
+
+#ballimage1:hover {
+    animation: jiggle 0.3s ease-in-out infinite;
+}
+.jiggle:hover {
+    animation: jiggleGeneric 0.25s ease-in-out infinite;
+}
+
+@keyframes jiggleGeneric {
+    0% { transform: rotate(0deg) scale(1); }
+    25% { transform: rotate(3deg) scale(1.02); }
+    50% { transform: rotate(-3deg) scale(0.98); }
+    75% { transform: rotate(2deg) scale(1.01); }
+    100% { transform: rotate(0deg) scale(1); }
+}
+@keyframes jiggle {
+    0% { transform: translate(20%, -40%) rotate(0deg); }
+    25% { transform: translate(22%, -42%) rotate(3deg); }
+    50% { transform: translate(20%, -38%) rotate(-3deg); }
+    75% { transform: translate(18%, -42%) rotate(2deg); }
+    100% { transform: translate(20%, -40%) rotate(0deg); }
+}
+
+.ball-wrapper {
+    position: relative;          
+    padding-top: 60px;           
+}
+
+
+#flagimage {
+    width: 40%;
+    
+    
+
+
+}
+
+#rosterimage {
+    width: 25%;
+}
+
+#jumpingimage {
+    width: 25%;
+    
+}
