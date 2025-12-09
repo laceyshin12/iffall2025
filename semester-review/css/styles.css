@@ -1,0 +1,122 @@
+            body {
+				color: #ffffff;
+				font-family: 'Open Sans', sans-serif;
+				margin: 0;
+				padding: 0;
+                background: linear-gradient(to bottom, #000052, #83e2ff);
+                text-transform: uppercase;
+			}
+
+			main {
+				margin: 40px;
+			}
+
+			h1 {
+			 	font-size: 30px;
+			 	margin-bottom: 40px;
+                text-align: center;
+			}
+
+            h2 {
+			 	font-size: 15px;
+			 	margin-bottom: 40px;
+                opacity: 0.5;
+			}
+
+            h3 {
+			 	font-size: 20px;
+			 	margin-bottom: 40px;
+                text-align: center;
+                opacity: 0.5;
+			}
+
+			.button_container {
+				border: 1px solid #ddd;
+                background-color: #83e2ff;
+				margin: 0 20px 20px 0;
+				padding: 20px;
+				width: 500px;
+				height: 500px;
+				float: left;
+				overflow: hidden;
+				box-sizing: border-box;
+				text-align: center;
+			}
+
+
+
+			a#btn_recipe {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				background-color: #000052;
+				border: 2px solid #ffffff;
+				color: #fff;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+				transition: all .5s;
+			}
+
+			a#btn_recipe:hover {
+				background-color: #83e2ff;
+				border: 2px solid #83e2ff;
+				color: #003343;
+			}
+
+            a#btn_microsite {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				background-color: #000052;
+				border: 2px solid #ffffff;
+				color: #fff;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+				transition: all .5s;
+			}
+
+            a#btn_microsite:hover {
+				background-color: #83e2ff;
+				border: 2px solid #83e2ff;
+				color: #003343;
+			}
+
+             a#btn_perfume {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				background-color: #000052;
+				border: 2px solid #ffffff;
+				color: #fff;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+				transition: all .5s;
+			}
+
+            a#btn_perfume:hover {
+                background-color: #83e2ff;
+				border: 2px solid #83e2ff;
+				color: #003343;
+			}
+
+
+
+
